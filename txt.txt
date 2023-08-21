@@ -1,0 +1,16 @@
+test project is our working projectory
+we can create a  local repository(repo) which is stored in the system and remote repository(repo) which is stored somewhere else and can be shared in GIthub
+
+ git innit command to initialise ypur project folder(1 time process)
+ gti status used to display the status of the workin git{
+    tracked and untracked
+ git files are there in   git}
+
+ git add is used to add files to stagging area
+ to add a file use git add filename
+ or to add all files use . operator 
+ git add .
+  this process is caalled stage and unstage process
+   to unstage  git restore filename
+   to display the diffresces we can use git diff command 
+    
