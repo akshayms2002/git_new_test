@@ -13,4 +13,7 @@ we can create a  local repository(repo) which is stored in the system and remote
   this process is caalled stage and unstage process
    to unstage  git restore filename
    to display the diffresces we can use git diff command 
-    
+
+we use git commit command to change our code status from staged to local repo
+git commit -m "message" is used here where "-m"is used to display the message that indicates the commit whichhelps the programmer to understand what we commit 
+git log command tell the user the commit history,id and more 
