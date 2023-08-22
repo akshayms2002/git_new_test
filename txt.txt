@@ -35,4 +35,7 @@ ssh stands for secure shell head it helps us to create a secure communication wh
  we can use ssh key to clone and import repositories into our local repo
 
  git pull is used to pull code from remote repo to our local repo
-  
+
+
+ gitignore :- things we keep as a secret (.gitignore) 
+ these files are not pushed into your remote repo .it is only seen in local repo
