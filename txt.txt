@@ -42,7 +42,7 @@ ssh stands for secure shell head it helps us to create a secure communication wh
  git branch 
  ->git branch is used to create an altenative file rather than master file
  ->git branch command is used to show all the branches used 
-
+     basicly we are creating a copy by creating branch
  git branch branchname is how to create a branch 
  we can later merge this branch to master branch 
  using git merge branchname
