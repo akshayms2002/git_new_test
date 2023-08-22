@@ -39,3 +39,13 @@ ssh stands for secure shell head it helps us to create a secure communication wh
 
  gitignore :- things we keep as a secret (.gitignore) 
  these files are not pushed into your remote repo .it is only seen in local repo
+ git branch 
+ ->git branch is used to create an altenative file rather than master file
+ ->git branch command is used to show all the branches used 
+
+ git branch branchname is how to create a branch 
+ we can later merge this branch to master branch 
+ using git merge branchname
+ git switch branchname is used to move to another branch
+ git checkout branchname is used to switch to a specific branch 
+ 
