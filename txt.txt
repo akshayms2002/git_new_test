@@ -2,7 +2,7 @@ test project is our working projectory
 we can create a  local repository(repo) which is stored in the system and remote repository(repo) which is stored somewhere else and can be shared in GIthub
 
  git innit command to initialise ypur project folder(1 time process)
- gti status used to display the status of the workin git{
+ git status used to display the status of the workin git{
     tracked and untracked
  git files are there in   git}
 
@@ -17,3 +17,22 @@ we can create a  local repository(repo) which is stored in the system and remote
 we use git commit command to change our code status from staged to local repo
 git commit -m "message" is used here where "-m"is used to display the message that indicates the commit whichhelps the programmer to understand what we commit 
 git log command tell the user the commit history,id and more 
+ to uncommit the things we use git reset --soft HEAD^ 
+ if use use hard it will delete  all the code 
+ if we use git checkout commit id of  teh file we can go to that file
+ git checkout master to find the file where the head is in at the moment
+what is HEAD?
+git show commit_id to show details abt that particular commit
+to see what changes were made between two commits we use git diff commit-id..commit-id
+git shoe HEAD is used to show details of the commit whichever your head refering to
+HEAD changes to commit to commit on each commit we do 
+if we want to undo our commit which we can go back to last version before the current version or commit we use git reset -soft HEAD^/gti reset HEAD^/git reset --hard HEAD^
+to change all our works from local repository to remote repository so we can share our code and work with others
+we use git push,git pull commands to do these things
+git clone url to download the remote repository into local machine
+SSH?
+ssh stands for secure shell head it helps us to create a secure communication while we push or pull files it increases the security .
+ we can use ssh key to clone and import repositories into our local repo
+
+ git pull is used to pull code from remote repo to our local repo
+  
